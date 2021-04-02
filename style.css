@@ -48,7 +48,9 @@
 .list__item {
   list-style: none;
 }
-.input,.button, .checkbox{
+.input,
+.button, 
+.checkbox {
   outline: none;
 }
 .button {
@@ -66,7 +68,8 @@
 
 /* Heading */
 
-.new-task__title, .todo__title {
+.new-task__title, 
+.todo__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -144,7 +147,8 @@ li > .input {
 
 /* Edit Task  */
 
-.todo__input, .completed__input {
+.todo__input, 
+.completed__input {
   display: none;
 }
 .todo__item_edit .input {
